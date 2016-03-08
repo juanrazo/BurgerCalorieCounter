@@ -24,6 +24,10 @@ public class Burger {
         mSauceCal = 0;
     }
 
+    public int caltulateCalories(){
+        return 10;
+    }
+
     public void setmPattyCalories(int calories){
         mPattyCal = calories;
     }
